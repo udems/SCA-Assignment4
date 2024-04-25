@@ -1,0 +1,122 @@
+/* Home page  */
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background:white;
+}
+
+header{
+    background: linear-gradient(145deg, #ba63a3, #dd76c2);  
+    height: 100px;
+    overflow: hidden;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    color: #f2f2f2;
+    width: 25%;
+    font-size: 17px;
+    padding-top:20px;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover { 
+color:rgba(93, 11, 201, 0.932);
+}
+
+
+/* Maincourse styling */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+
+/* drinks styling */
+.drinksMenu-item {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #cc3333;
+    border-radius: 5px;
+}
+
+.drinksMenu-item img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+
+}
+
+.drinksItem-description {
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+}
+
+
+
+
+/* starters styling */
+
+.starterMenu-item {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #cc3333;
+    border-radius: 5px;
+}
+
+.starterMenu-item img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 60px;
+}
+
+.starterItem-description {
+    text-align: center;
+}
+
+
+
+.animate{
+    font-size: 60px;
+    text-align: center;
+  }
